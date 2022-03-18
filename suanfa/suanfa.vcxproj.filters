@@ -68,5 +68,20 @@
     <ClInclude Include="10_正则表达式匹配.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="34_在排序数组中查找元素的第一个和最后一个位置.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="354_俄罗斯套娃问题.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="392._判断子序列.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="793_阶乘函数后 K 个零.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="172_阶乘后的零.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
