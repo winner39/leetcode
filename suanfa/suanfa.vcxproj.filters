@@ -74,13 +74,19 @@
     <ClInclude Include="354_俄罗斯套娃问题.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="392._判断子序列.h">
+    <ClInclude Include="392_判断子序列.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="793_阶乘函数后 K 个零.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="172_阶乘后的零.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="875_爱吃香蕉的珂珂.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1011_在 D 天内送达包裹的能力.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
