@@ -149,6 +149,8 @@
     <ClInclude Include="354_俄罗斯套娃问题.h" />
     <ClInclude Include="392_判断子序列.h" />
     <ClInclude Include="3_无重复字符的最长子串.h" />
+    <ClInclude Include="76_最小覆盖子串.h" />
+    <ClInclude Include="76_最小覆盖子串2.h" />
     <ClInclude Include="793_阶乘函数后 K 个零.h" />
     <ClInclude Include="875_爱吃香蕉的珂珂.h" />
     <ClInclude Include="dependencies.h" />

@@ -13,8 +13,8 @@ public:
     int binary_search_smaller(vector<int>& piles,int target, int left, int right) {//即便时间刚好满足，也尽量减少进食速度，因此当左右边界重合时，可能会出现无法吃光香蕉的情况
         int mid = left + (right - left) / 2;
         if (left == right) {
-            if (cal_h(piles,left)>target) {
-                return left - 1;
+            if (cal_h(piles,left)>target) {//这个判断是不需要的（建议加上免得伤脑袋
+                return left + 1;
             }
             else return left;
         }

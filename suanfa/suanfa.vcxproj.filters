@@ -89,5 +89,11 @@
     <ClInclude Include="1011_在 D 天内送达包裹的能力.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="76_最小覆盖子串.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="76_最小覆盖子串2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
