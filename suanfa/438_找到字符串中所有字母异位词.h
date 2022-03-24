@@ -19,7 +19,8 @@ public:
             }
             else if (i - left + 1 < p.size()) {
                 count[s[i]]--;
-                if(count[s[i]]==0 )isok--;
+                if (count[s[i]] == 0)isok--;
+                else if (count[s[i]] == -1) isok++;
             }
             else {
 
