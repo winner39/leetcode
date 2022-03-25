@@ -140,16 +140,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="源.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1011_在 D 天内送达包裹的能力.h" />
     <ClInclude Include="172_阶乘后的零.h" />
+    <ClInclude Include="239_滑动窗口最大值.h" />
     <ClInclude Include="34_在排序数组中查找元素的第一个和最后一个位置.h" />
     <ClInclude Include="354_俄罗斯套娃问题.h" />
     <ClInclude Include="392_判断子序列.h" />
     <ClInclude Include="3_无重复字符的最长子串.h" />
     <ClInclude Include="438_找到字符串中所有字母异位词.h" />
+    <ClInclude Include="567_字符串的排列.h" />
+    <ClInclude Include="567_字符串的排列2.h" />
     <ClInclude Include="76_最小覆盖子串.h" />
     <ClInclude Include="76_最小覆盖子串2.h" />
     <ClInclude Include="76_最小覆盖子串3.h" />

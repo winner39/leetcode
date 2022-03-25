@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="源.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -99,6 +96,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="438_找到字符串中所有字母异位词.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="567_字符串的排列.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="567_字符串的排列2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="239_滑动窗口最大值.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
