@@ -143,6 +143,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1011_在 D 天内送达包裹的能力.h" />
+    <ClInclude Include="15_三数之和1.h" />
+    <ClInclude Include="15_三数之和2.h" />
     <ClInclude Include="172_阶乘后的零.h" />
     <ClInclude Include="239_滑动窗口最大值.h" />
     <ClInclude Include="26_删除有序数组中的重复项.h" />

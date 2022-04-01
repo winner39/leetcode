@@ -125,5 +125,11 @@
     <ClInclude Include="870_优势洗牌.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="15_三数之和1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="15_三数之和2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
