@@ -107,5 +107,23 @@
     <ClInclude Include="239_滑动窗口最大值.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="26_删除有序数组中的重复项.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="27_移除元素.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="283_移动零.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="42_接雨水.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="986_区间列表的交集.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="870_优势洗牌.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
