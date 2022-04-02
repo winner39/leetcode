@@ -2,7 +2,7 @@
 #include"dependencies.h"
 class Solution {
 public:
-    string minWindow(string s, string t) {
+    string minWindow(string s, string t) {//强行从头检查只会灰飞烟灭
         unordered_map<char, int> count;
         unordered_map<char, int> cur_count;
         int left = -1, best_left = 0;

@@ -131,5 +131,14 @@
     <ClInclude Include="15_三数之和2.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="18_四数之和.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="19_删除链表的倒数第N个节点.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="21_合并k个有序链表.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

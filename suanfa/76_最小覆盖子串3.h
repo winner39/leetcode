@@ -2,7 +2,7 @@
 #include"dependencies.h"
 class Solution {
 public:
-    string minWindow(string s, string t) {
+    string minWindow(string s, string t) {//使用isok辅助判断是否完全符合
         unordered_map<char, int> count;
         int isok = 0;
         int left = 0, best_left = 0;
