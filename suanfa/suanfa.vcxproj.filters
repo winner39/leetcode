@@ -140,5 +140,8 @@
     <ClInclude Include="21_合并k个有序链表.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="23_合并K个升序链表.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

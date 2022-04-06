@@ -150,6 +150,7 @@
     <ClInclude Include="19_删除链表的倒数第N个节点.h" />
     <ClInclude Include="21_合并k个有序链表.h" />
     <ClInclude Include="239_滑动窗口最大值.h" />
+    <ClInclude Include="23_合并K个升序链表.h" />
     <ClInclude Include="26_删除有序数组中的重复项.h" />
     <ClInclude Include="27_移除元素.h" />
     <ClInclude Include="283_移动零.h" />
