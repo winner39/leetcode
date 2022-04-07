@@ -143,5 +143,14 @@
     <ClInclude Include="23_合并K个升序链表.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="141_环形链表.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="142_环形链表2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="160_相交链表.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

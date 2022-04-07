@@ -18,7 +18,7 @@ public:
                 ptr.push_back(i);
         }
         if (ptr.empty()) return nullptr;
-        while (ptr.size()>1) {
+        while (ptr.size()>1) {//两两合并，分治法
             while (ptr[0] && ptr[1]) {
                 if (ptr[0]->val < ptr[1]->val) {
                     pre_Node->next = ptr[0];
