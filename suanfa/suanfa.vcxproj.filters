@@ -152,5 +152,17 @@
     <ClInclude Include="160_相交链表.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="876_链表的中间结点.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="25_K 个一组翻转链表.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="83_删除排序链表中的重复元素.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="92_反转链表 II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

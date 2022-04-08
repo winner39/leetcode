@@ -154,6 +154,7 @@
     <ClInclude Include="21_合并k个有序链表.h" />
     <ClInclude Include="239_滑动窗口最大值.h" />
     <ClInclude Include="23_合并K个升序链表.h" />
+    <ClInclude Include="25_K 个一组翻转链表.h" />
     <ClInclude Include="26_删除有序数组中的重复项.h" />
     <ClInclude Include="27_移除元素.h" />
     <ClInclude Include="283_移动零.h" />
@@ -169,8 +170,11 @@
     <ClInclude Include="76_最小覆盖子串2.h" />
     <ClInclude Include="76_最小覆盖子串3.h" />
     <ClInclude Include="793_阶乘函数后 K 个零.h" />
+    <ClInclude Include="83_删除排序链表中的重复元素.h" />
     <ClInclude Include="870_优势洗牌.h" />
     <ClInclude Include="875_爱吃香蕉的珂珂.h" />
+    <ClInclude Include="876_链表的中间结点.h" />
+    <ClInclude Include="92_反转链表 II.h" />
     <ClInclude Include="986_区间列表的交集.h" />
     <ClInclude Include="dependencies.h" />
     <ClInclude Include="N叉树前序遍历.h" />

@@ -41,12 +41,6 @@ public:
         }
         return s.substr(best_left, minWindow + 1);
     }
-    bool all_correct(unordered_map<char, int>& count, unordered_map<char, int>& cur_count) {
-        for (auto const& cnt : count) {
-            if (cnt.second > cur_count[cnt.first]) return false;
-        }
-        return true;
-    }
 };
 void test() {
     Solution solution = {  };
