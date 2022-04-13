@@ -164,5 +164,17 @@
     <ClInclude Include="92_反转链表 II.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="234_回文链表.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="303_区域和检索 - 数组不可变.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="304_二维区域和检索 - 矩阵不可变.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="560_和为 K 的子数组.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
