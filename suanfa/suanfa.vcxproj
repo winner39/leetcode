@@ -143,14 +143,19 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1011_在 D 天内送达包裹的能力.h" />
+    <ClInclude Include="1094_拼车.h" />
+    <ClInclude Include="1094_拼车2.h" />
+    <ClInclude Include="1109_航班预订统计.h" />
     <ClInclude Include="141_环形链表.h" />
     <ClInclude Include="142_环形链表2.h" />
+    <ClInclude Include="1541_平衡括号字符串的最少插入次数.h" />
     <ClInclude Include="15_三数之和1.h" />
     <ClInclude Include="15_三数之和2.h" />
     <ClInclude Include="160_相交链表.h" />
     <ClInclude Include="172_阶乘后的零.h" />
     <ClInclude Include="18_四数之和.h" />
     <ClInclude Include="19_删除链表的倒数第N个节点.h" />
+    <ClInclude Include="20_有效的括号.h" />
     <ClInclude Include="21_合并k个有序链表.h" />
     <ClInclude Include="234_回文链表.h" />
     <ClInclude Include="239_滑动窗口最大值.h" />
@@ -178,6 +183,7 @@
     <ClInclude Include="870_优势洗牌.h" />
     <ClInclude Include="875_爱吃香蕉的珂珂.h" />
     <ClInclude Include="876_链表的中间结点.h" />
+    <ClInclude Include="921_使括号有效的最少添加.h" />
     <ClInclude Include="92_反转链表 II.h" />
     <ClInclude Include="986_区间列表的交集.h" />
     <ClInclude Include="dependencies.h" />

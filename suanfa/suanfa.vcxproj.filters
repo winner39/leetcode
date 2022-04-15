@@ -176,5 +176,23 @@
     <ClInclude Include="560_和为 K 的子数组.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="1094_拼车.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1094_拼车2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1109_航班预订统计.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="20_有效的括号.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="921_使括号有效的最少添加.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="1541_平衡括号字符串的最少插入次数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
