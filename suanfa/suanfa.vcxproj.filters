@@ -194,5 +194,11 @@
     <ClInclude Include="1541_平衡括号字符串的最少插入次数.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="225_用队列实现栈.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="232_用栈实现队列.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

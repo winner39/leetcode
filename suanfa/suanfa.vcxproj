@@ -157,6 +157,8 @@
     <ClInclude Include="19_删除链表的倒数第N个节点.h" />
     <ClInclude Include="20_有效的括号.h" />
     <ClInclude Include="21_合并k个有序链表.h" />
+    <ClInclude Include="225_用队列实现栈.h" />
+    <ClInclude Include="232_用栈实现队列.h" />
     <ClInclude Include="234_回文链表.h" />
     <ClInclude Include="239_滑动窗口最大值.h" />
     <ClInclude Include="23_合并K个升序链表.h" />
