@@ -200,5 +200,20 @@
     <ClInclude Include="232_用栈实现队列.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="22_括号生成.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="22_括号生成2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="239_滑动窗口最大值_RE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="215_数组中的第K个最大元素.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="215_数组中的第K个最大元素2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

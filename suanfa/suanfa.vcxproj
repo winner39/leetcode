@@ -156,11 +156,16 @@
     <ClInclude Include="18_四数之和.h" />
     <ClInclude Include="19_删除链表的倒数第N个节点.h" />
     <ClInclude Include="20_有效的括号.h" />
+    <ClInclude Include="215_数组中的第K个最大元素2.h" />
+    <ClInclude Include="215_数组中的第K个最大元素.h" />
     <ClInclude Include="21_合并k个有序链表.h" />
     <ClInclude Include="225_用队列实现栈.h" />
+    <ClInclude Include="22_括号生成.h" />
+    <ClInclude Include="22_括号生成2.h" />
     <ClInclude Include="232_用栈实现队列.h" />
     <ClInclude Include="234_回文链表.h" />
     <ClInclude Include="239_滑动窗口最大值.h" />
+    <ClInclude Include="239_滑动窗口最大值_RE.h" />
     <ClInclude Include="23_合并K个升序链表.h" />
     <ClInclude Include="25_K 个一组翻转链表.h" />
     <ClInclude Include="26_删除有序数组中的重复项.h" />
