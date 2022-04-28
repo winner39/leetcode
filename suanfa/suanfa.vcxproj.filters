@@ -215,5 +215,32 @@
     <ClInclude Include="215_数组中的第K个最大元素2.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="215_数组中的第K个最大元素3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="295_数据流中的中位数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="295_数据流中的中位数2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="480_滑动窗口中位数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="146_LRU缓存.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="124_二叉树中的最大路径和.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="112_路径总和.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="113_路径总和 II.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="341_扁平化嵌套列表迭代器.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

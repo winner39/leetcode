@@ -3,41 +3,43 @@
 class Solution {//20:30
 public:
     int findKthLargest(vector<int>& nums, int k) {
-        return fastsort(nums, 0, nums.size(), k);
-    }
-    int fastsort(vector<int>nums, int l, int r, int target) {
-        if (l == r) {
-            return nums[l];
+        vector<int> maxheap;
+        int index = 0, swap_index = 0;
+        for (auto i : nums) {
+            maxheap.push_back(i);
+            index = maxheap.size() - 1;
+            while (index != 0 && maxheap[(index - 1) / 2] < maxheap[index]) {
+                swap(maxheap[(index - 1) / 2], maxheap[index]);
+                index = (index - 1) / 2;
+            }
         }
-        int left = l, right = r;
-        while (true) {
-            while (++left < right && nums[left] > nums[l]);
-            while (--right > left && nums[right] < nums[l]);
-            if (left >= right) {
-                if (left == target) return nums[l];
-                if (left == r) {
-                    swap(nums[l], nums[r - 1]);
-                    return fastsort(nums, l, r - 1, target);
+        int result = 0;
+        for (int i = 0; i < k; i++) {
+            result = maxheap[0];
+            swap(maxheap[0], maxheap.back());
+            maxheap.pop_back();
+            index = 0;
+            while (index * 2 + 2 < maxheap.size()) {
+                if (maxheap[index * 2 + 1] > maxheap[index] || maxheap[index * 2 + 2] > maxheap[index]) {
+                    swap_index = maxheap[index * 2 + 1] > maxheap[index * 2 + 2] ? index * 2 + 1 : index * 2 + 2;
+                    swap(maxheap[index], maxheap[swap_index]);
+                    index = swap_index;
                 }
                 else {
-                    swap(nums[l], nums[left - 1]);
-                    if (left > target) {
-                        return fastsort(nums, l, left - 1, target);
-                    }
-                    else {
-                        return fastsort(nums, left, r, target);
-                    }
+                    break;
                 }
             }
-            else {
-                cout << left << "," << right << endl;
-                swap(nums[left], nums[right]);
+            if (index * 2 + 1 < maxheap.size()) {
+                if (maxheap[index * 2 + 1] > maxheap[index]) {
+                    swap(maxheap[index], maxheap[index * 2 + 1]);
+                }
             }
         }
+        return result;
     }
 };
 void test() {
     Solution solution = {};
-    vector<int> ask = { 2,1 };
-    cout << solution.findKthLargest(ask, 1) << endl;
+    vector<int> ask = { 3, 2, 3, 1, 2, 4, 5, 5, 6 };
+    cout << solution.findKthLargest(ask, 4) << endl;
 }
