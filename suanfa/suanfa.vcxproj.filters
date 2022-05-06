@@ -242,5 +242,14 @@
     <ClInclude Include="341_扁平化嵌套列表迭代器.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="380_O(1) 时间插入、删除和获取随机元素.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="895_最大频率栈.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="105_从前序与中序遍历序列构造二叉树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

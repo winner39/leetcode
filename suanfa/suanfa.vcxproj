@@ -143,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="1011_在 D 天内送达包裹的能力.h" />
+    <ClInclude Include="105_从前序与中序遍历序列构造二叉树.h" />
     <ClInclude Include="1094_拼车.h" />
     <ClInclude Include="1094_拼车2.h" />
     <ClInclude Include="1109_航班预订统计.h" />
@@ -183,6 +184,7 @@
     <ClInclude Include="341_扁平化嵌套列表迭代器.h" />
     <ClInclude Include="34_在排序数组中查找元素的第一个和最后一个位置.h" />
     <ClInclude Include="354_俄罗斯套娃问题.h" />
+    <ClInclude Include="380_O(1) 时间插入、删除和获取随机元素.h" />
     <ClInclude Include="392_判断子序列.h" />
     <ClInclude Include="3_无重复字符的最长子串.h" />
     <ClInclude Include="42_接雨水.h" />
@@ -199,6 +201,7 @@
     <ClInclude Include="870_优势洗牌.h" />
     <ClInclude Include="875_爱吃香蕉的珂珂.h" />
     <ClInclude Include="876_链表的中间结点.h" />
+    <ClInclude Include="895_最大频率栈.h" />
     <ClInclude Include="921_使括号有效的最少添加.h" />
     <ClInclude Include="92_反转链表 II.h" />
     <ClInclude Include="986_区间列表的交集.h" />

@@ -15,7 +15,7 @@ public:
 };
 
 
-class NestedIterator {
+class NestedIterator {//这道题的恶性点在于，存在空括号，所以要在获取下一个数字前，帮助其定位到下一个非空括号内
 public:
     struct ListLog {
         int size;
@@ -35,7 +35,11 @@ public:
 
     int next() {
         int result;
-        if (vec_it.back().i->isInteger()) {
+        result = vec_it.back().i->getInteger();
+        vec_it.back().i++;
+        vec_it.back().cur_index++;
+        return result;
+        /*if (vec_it.back().i->isInteger()) {
             result = vec_it.back().i->getInteger();
             vec_it.back().i++;
             vec_it.back().cur_index++;
@@ -50,19 +54,32 @@ public:
         result = vec_it.back().i->getInteger();
         vec_it.back().i++;
         vec_it.back().cur_index++;
-        return result;
+        return result;*/
     }
 
     bool hasNext() {
         vector<NestedInteger>::const_iterator temp;
-        while (!vec_it.empty()) {
-            temp = vec_it.back().i;
-            while (!temp->isInteger()) {
-                temp = temp->getList().begin();
+        while (!vec_it.empty() && vec_it.back().cur_index == vec_it.back().size) {//清理遍历完的数组
+            vec_it.pop_back();
+            if (!vec_it.empty()) {
+                vec_it.back().i++;
+                vec_it.back().cur_index++;
             }
-            if()
-            if (vec_it.back().cur_index == vec_it.back().size) {
-                vec_it.pop_back();
+        }
+        while (!vec_it.empty() && !vec_it.back().i->isInteger()) {//进入到下一个数字
+            if (vec_it.back().i->getList().size() == 0) {//如果该列表长度为0，即空括号，则视作直接遍历完毕
+                vec_it.back().i++;
+                vec_it.back().cur_index++;
+                while (!vec_it.empty() && vec_it.back().cur_index == vec_it.back().size) {//清理遍历完的数组
+                    vec_it.pop_back();
+                    if (!vec_it.empty()) {
+                        vec_it.back().i++;
+                        vec_it.back().cur_index++;
+                    }
+                }
+            }
+            else {
+                vec_it.emplace_back(vec_it.back().i->getList());
             }
         }
         return !vec_it.empty();
