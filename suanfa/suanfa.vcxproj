@@ -144,11 +144,15 @@
   <ItemGroup>
     <ClInclude Include="1011_在 D 天内送达包裹的能力.h" />
     <ClInclude Include="105_从前序与中序遍历序列构造二叉树.h" />
+    <ClInclude Include="106_从中序与后序遍历序列构造二叉树.h" />
     <ClInclude Include="1094_拼车.h" />
     <ClInclude Include="1094_拼车2.h" />
     <ClInclude Include="1109_航班预订统计.h" />
+    <ClInclude Include="111_二叉树的最小深度.h" />
     <ClInclude Include="112_路径总和.h" />
     <ClInclude Include="113_路径总和 II.h" />
+    <ClInclude Include="114_二叉树展开为链表.h" />
+    <ClInclude Include="116_填充每个节点的下一个右侧节点指针.h" />
     <ClInclude Include="124_二叉树中的最大路径和.h" />
     <ClInclude Include="141_环形链表.h" />
     <ClInclude Include="142_环形链表2.h" />
@@ -165,7 +169,9 @@
     <ClInclude Include="215_数组中的第K个最大元素.h" />
     <ClInclude Include="215_数组中的第K个最大元素3.h" />
     <ClInclude Include="21_合并k个有序链表.h" />
+    <ClInclude Include="222_完全二叉树的节点个数.h" />
     <ClInclude Include="225_用队列实现栈.h" />
+    <ClInclude Include="226_翻转二叉树.h" />
     <ClInclude Include="22_括号生成.h" />
     <ClInclude Include="22_括号生成2.h" />
     <ClInclude Include="232_用栈实现队列.h" />
@@ -179,6 +185,7 @@
     <ClInclude Include="283_移动零.h" />
     <ClInclude Include="295_数据流中的中位数.h" />
     <ClInclude Include="295_数据流中的中位数2.h" />
+    <ClInclude Include="297_二叉树的序列化与反序列化.h" />
     <ClInclude Include="303_区域和检索 - 数组不可变.h" />
     <ClInclude Include="304_二维区域和检索 - 矩阵不可变.h" />
     <ClInclude Include="341_扁平化嵌套列表迭代器.h" />
@@ -193,6 +200,7 @@
     <ClInclude Include="560_和为 K 的子数组.h" />
     <ClInclude Include="567_字符串的排列.h" />
     <ClInclude Include="567_字符串的排列2.h" />
+    <ClInclude Include="654_最大二叉树.h" />
     <ClInclude Include="76_最小覆盖子串.h" />
     <ClInclude Include="76_最小覆盖子串2.h" />
     <ClInclude Include="76_最小覆盖子串3.h" />

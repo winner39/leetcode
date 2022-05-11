@@ -251,5 +251,29 @@
     <ClInclude Include="105_从前序与中序遍历序列构造二叉树.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="106_从中序与后序遍历序列构造二叉树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="654_最大二叉树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="111_二叉树的最小深度.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="114_二叉树展开为链表.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="116_填充每个节点的下一个右侧节点指针.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="226_翻转二叉树.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="222_完全二叉树的节点个数.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="297_二叉树的序列化与反序列化.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
